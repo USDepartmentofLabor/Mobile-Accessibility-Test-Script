@@ -1,11 +1,15 @@
 These tests are based on [Best Practices by SSB BART Group](https://www.webaccessibility.com/) and on Level A and Level AA Success Criteria of the Web Content Accessibility Guidelines (WCAG) 2.0, W3C Recommendation, 11 December 2008, http://www.w3.org/TR/WCAG20/, as proposed by the U.S. Access Board, http://www.access-board.gov/sec508/refresh/draft-rule.htm.This checklist is inclusive of the Technical Standards of Subpart B of Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. 794d), http://section508.gov/index.cfm?fuseAction=stdsdoc.
+
 ## Test Case ID 1: Ensure audio does not disrupt text to speech functionality of assistive technologies.
 Ensure controls that start audio do not speak when actuated so that audio plays without interruption. Ensure audio playback volume is lowered when text to speech is speaking
+
 ## Test Case ID 2: Ensure audio information is not the only method used to indicate completion or error
 1.	Test application with volume muted. Are you able to determine all functionality visually?
 2.	Test with sound not muted. Are there sounds used in the application? Are these sounds redundant for other visual clues?
+
 ## Test Case ID 3: Ensure visual multimedia content is sufficiently described in the audio portion of the multimedia
 Verify the audio accurately describe the visual cues in the video. Verify that visual specific language such as “as seen here”, “this chart”, or “this image”, also supplies detailed audio descriptions of the subject. Verify that audio descriptions are synchronized with the video. If a secondary version of the multimedia is provided with a special audio track, verify that this can be activated from the same module that launches the multimedia and that the method of activation meets all relevant accessibility best practices for the media type.
+
 ## Test Case ID 4: Provide a text transcript for audio only presentations
 Activate the application. Locate all audio-only media. Verify that the page where the audio resides provides a link or similar method to access a text transcript. Verify that the transcript matches the audio, including all narration, identification of each speaker and indication of any pauses, sounds or other non-decorative audio cues.
 ## Test Case ID 5: Ensure color and text formatting are not the sole means of communicating information
